@@ -1,9 +1,8 @@
 # main.py
 import pygame
-import sys
 from settings import Settings
-from player import Player
-from enemy import Enemy
+from entities.player import Player
+from entities.enemy import Enemy
 
 def run_game():
     pygame.init()
